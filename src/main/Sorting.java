@@ -1,11 +1,10 @@
 package main;
 
 import main.exceptions.OutOfIndexException;
-import nameClass.Name;
+import name_class.Name;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
 public class Sorting {
 
@@ -19,10 +18,10 @@ public class Sorting {
         for(int i = 0; i < size; i++ ) {
             for(int j = i+1; j < size; j++) {
 
-                if( a.get(i).getName().compareTo(a.get(j).getName()) > 0 ) {
-                    temp =  a.get(i).getName();
-                    a.get(i).setName(a.get(j).getName());
-                    a.get(j).setName(temp);
+                if( a.get(i).getStringName().compareTo(a.get(j).getStringName()) > 0 ) {
+                    temp =  a.get(i).getStringName();
+                    a.get(i).setStringName(a.get(j).getStringName());
+                    a.get(j).setStringName(temp);
                 }
             }
         }
@@ -50,9 +49,14 @@ public class Sorting {
             System.err.println("main.exceptions.OutOfIndexException error" + e.getMessage());
         }
         int index;
-        int length = sorted.size();
+        int length = 0;
+        
+        if (sorted != null) {
+            length = sorted.size();
+        }
+
         for(index = 0; index < length; index++){
-           System.out.println(sorted.get(index).getName());
+           System.out.println(sorted.get(index).getStringName());
         }
 
 
