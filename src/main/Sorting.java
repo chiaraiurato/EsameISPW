@@ -50,7 +50,7 @@ public class Sorting {
         }
         int index;
         int length = 0;
-        
+
         if (sorted != null) {
             length = sorted.size();
         }

@@ -14,6 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/Sorting.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/exceptions/OutOfIndexException.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/name_class/Name.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="2ApZyIj3wJJ8n56JwxabCAxAI0G" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,6 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../esempi/jdbc" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
@@ -47,7 +53,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655708742546</updated>
-      <workItem from="1655708744864" duration="4168000" />
+      <workItem from="1655708744864" duration="4933000" />
+      <workItem from="1665739833557" duration="71000" />
     </task>
     <servers />
   </component>
