@@ -1,0 +1,19 @@
+package name_class;
+
+public class Name {
+
+    private String stringName;
+
+    public Name(String name) {
+        this.stringName = name;
+    }
+
+
+    public String getStringName() {
+        return stringName;
+    }
+
+    public void setStringName(String stringName) {
+        this.stringName = stringName;
+    }
+}

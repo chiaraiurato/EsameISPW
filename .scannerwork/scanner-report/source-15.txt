@@ -1,0 +1,7 @@
+package main.exceptions;
+
+public class OutOfIndexException extends Exception{
+    public OutOfIndexException (String message){
+        super(message);
+    }
+}
